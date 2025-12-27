@@ -1,32 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Herballife</itle>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herbalife Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>My Business Website</h1>
-    <p>Welcome to my website</p>
-</header>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Herbalife</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
-</nav>
+    <!-- Home Section -->
+    <section class="container" id="home">
+        <h1>Welcome to Herbalife</h1>
+        <p>Healthy nutrition for a better life.</p>
 
-<section class="content">
-    <h2>About Us</h2>
-    <p>This is a simple website built using HTML and CSS.</p>
-</section>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Herbalife_logo.svg" alt="Herbalife Logo">
 
-<footer>
-    <p>© 2025 My Website</p>
-</footer>
+        <a href="https://www.herbalife.com" target="_blank" class="btn">
+            Visit Official Website
+        </a>
+    </section>
+
+    <!-- About -->
+    <section class="container" id="about">
+        <h2>About Us</h2>
+        <p>
+            Herbalife provides nutrition products that support a healthy
+            and active lifestyle.
+        </p>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="container" id="contact">
+        <h2>Contact Us</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 
 </body>
 </html>
